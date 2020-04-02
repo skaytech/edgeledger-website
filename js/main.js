@@ -11,7 +11,7 @@
 // }
 
 //smooth scroll JS Snippet
-$("#navbar a, .btn").click(function(e) {
+$("#navbar a").click(function(e) {
     if (this.hash != '') {
         e.preventDefault();
 
